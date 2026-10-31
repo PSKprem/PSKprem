@@ -124,8 +124,8 @@ Turned LinkedIn connection CSVs into a **social network graph** and applied **ce
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=PSKprem&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PSKprem&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img height="200" src="profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" />
+<img height="200" src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top languages by commit" />
 
 <img src="https://streak-stats.demolab.com?user=PSKprem&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
