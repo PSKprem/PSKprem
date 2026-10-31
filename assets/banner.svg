@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Prem Shankar Kushwaha - B.Tech CS student, Python and AI developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2027"/>
+      <stop offset="0.5" stop-color="#203a43"/>
+      <stop offset="1" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#36bcf7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#36bcf7"/>
+      <stop offset="1" stop-color="#36bcf7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#36bcf7" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#36bcf7" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="round"><rect width="1200" height="240" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="240" fill="url(#bg)"/>
+    <rect width="1200" height="240" fill="url(#glow)"/>
+
+    <!-- floating dots -->
+    <g fill="#36bcf7" opacity="0.5">
+      <circle cx="140" cy="50" r="3"><animate attributeName="cy" values="50;62;50" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="320" cy="200" r="2.5"><animate attributeName="cy" values="200;188;200" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="45" r="3"><animate attributeName="cy" values="45;58;45" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="1040" cy="190" r="3.5"><animate attributeName="cy" values="190;176;190" dur="5.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1120" cy="90" r="2.5"><animate attributeName="cy" values="90;102;90" dur="6.5s" repeatCount="indefinite"/></circle>
+      <circle cx="60" cy="160" r="2"><animate attributeName="cy" values="160;148;160" dur="4.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- code-style brackets -->
+    <text x="70" y="150" font-family="Consolas, 'Courier New', monospace" font-size="120" fill="#ffffff" opacity="0.06">&lt;/&gt;</text>
+    <text x="930" y="205" font-family="Consolas, 'Courier New', monospace" font-size="120" fill="#ffffff" opacity="0.06">{ }</text>
+
+    <!-- name -->
+    <text x="600" y="108" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="1">
+      Prem Shankar Kushwaha
+      <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+    </text>
+
+    <!-- divider -->
+    <rect x="360" y="128" width="480" height="3" rx="1.5" fill="url(#line)">
+      <animate attributeName="width" values="0;480" dur="1.4s" fill="freeze"/>
+    </rect>
+
+    <!-- subtitle -->
+    <text x="600" y="172" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="24" fill="#cfe9f7">
+      B.Tech CS Student  |  Python &amp; AI Developer
+      <animate attributeName="opacity" values="0;1" begin="0.5s" dur="1.2s" fill="freeze"/>
+    </text>
+  </g>
+</svg>

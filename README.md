@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Prem%20Shankar%20Kushwaha&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=B.Tech%20CS%20%40%20Sitare%20University%20%7C%20Python%20%26%20AI%20Developer&descAlignY=58&descSize=17" width="100%" alt="banner" />
+<img src="assets/banner.svg" width="100%" alt="Prem Shankar Kushwaha - B.Tech CS student, Python and AI developer" />
 
 <a href="https://github.com/PSKprem">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=640&lines=Building+AI-powered+apps+with+Python+%26+Flask;Turning+data+into+insights+with+Pandas;Solving+DSA+problems+in+Java;Always+learning%2C+always+shipping" alt="Typing SVG" />
@@ -105,6 +105,10 @@ Turned LinkedIn connection CSVs into a **social network graph** and applied **ce
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/PSKprem/PSKprem/output/github-contributions.svg" alt="Contributions in the last year" />
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PSKprem/PSKprem/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PSKprem/PSKprem/output/github-snake.svg" />
@@ -146,6 +150,6 @@ I'm always happy to talk about AI, data, code, or opportunities.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prem-shankar-kushwaha-710a81329/)
 [![Gmail](https://img.shields.io/badge/Email-Say%20Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:premshankark88@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%" alt="footer" />
+<img src="assets/footer.svg" width="100%" alt="footer" />
 
 </div>
