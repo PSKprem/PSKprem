@@ -24,40 +24,6 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Generate contributions counter card
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          mkdir -p dist
-          COUNT=$(gh api graphql \
-            -f query='query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{totalContributions}}}}' \
-            -f login="${{ github.repository_owner }}" \
-            --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
-          if ! [[ "$COUNT" =~ ^[0-9]+$ ]]; then
-            echo "Could not read contribution count: '$COUNT'" >&2
-            exit 1
-          fi
-          echo "Contributions in the last year: $COUNT"
-          cat > dist/github-contributions.svg <<EOF
-          <svg xmlns="http://www.w3.org/2000/svg" width="700" height="96" viewBox="0 0 700 96" role="img" aria-label="${COUNT} contributions in the last year">
-            <defs>
-              <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#0d1117"/>
-                <stop offset="1" stop-color="#161b22"/>
-              </linearGradient>
-              <linearGradient id="num" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0" stop-color="#36bcf7"/>
-                <stop offset="1" stop-color="#7ee787"/>
-              </linearGradient>
-            </defs>
-            <rect x="1" y="1" width="698" height="94" rx="14" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
-            <text x="350" y="56" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="url(#num)">${COUNT}
-              <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
-            </text>
-            <text x="350" y="82" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="16" fill="#8b949e">contributions in the last year</text>
-          </svg>
-          EOF
-
       - name: Push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:

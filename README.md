@@ -13,7 +13,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Prem%20Shankar%20Kushwaha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prem-shankar-kushwaha-710a81329/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-PCodex9-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/PCodex9/)
-[![Gmail](https://img.shields.io/badge/Gmail-premshankark88%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:premshankark88@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-premshankark88%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=premshankark88@gmail.com&su=Hello%20Prem)
 
 </div>
 
@@ -106,10 +106,6 @@ Turned LinkedIn connection CSVs into a **social network graph** and applied **ce
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/PSKprem/PSKprem/output/github-contributions.svg" alt="Contributions in the last year" />
-
-<br/><br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PSKprem/PSKprem/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PSKprem/PSKprem/output/github-snake.svg" />
@@ -149,7 +145,7 @@ Turned LinkedIn connection CSVs into a **social network graph** and applied **ce
 I'm always happy to talk about AI, data, code, or opportunities.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prem-shankar-kushwaha-710a81329/)
-[![Gmail](https://img.shields.io/badge/Email-Say%20Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:premshankark88@gmail.com)
+[![Gmail](https://img.shields.io/badge/Email-Say%20Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=premshankark88@gmail.com&su=Hello%20Prem)
 [![LeetCode](https://img.shields.io/badge/LeetCode-PCodex9-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/PCodex9/)
 
 <img src="assets/footer.svg" width="100%" alt="footer" />
